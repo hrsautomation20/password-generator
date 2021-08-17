@@ -62,16 +62,18 @@ function getPrompts() {
     return false;
   }
   if (confirm("Would you like lowercase letter in your password?")) {
-    choice = choice.getRandomLower();
+    choice = choice.concat(getRandomLower());
   }
   if (confirm("Would you like uppercase letter in your password?")) {
-    choice = choice.getRandomUpper();
+    choice = choice.concat(getRandomUpper());
   }
   if (confirm("Would you like number letter in your password?")) {
-    choice = choice.getRandomNumber();
+    choice = choice.concat(getRandomNumber());
   }
   if (confirm("Would you like symbol letter in your password?")) {
-    choice = choice.getRandomSymbol();
+    choice = choice.concat(getRandomSymbol());
   }
   return true;
 }
+
+console.log(getPrompts());

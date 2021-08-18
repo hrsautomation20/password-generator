@@ -14,7 +14,7 @@ body,
 
 body {
     font-family: sans-serif;
-    background-color: #f9fbfd;
+    background: linear-gradient(to right top, #65dfc9, #6cbdeb);
 }
 
 .wrapper {
@@ -32,7 +32,7 @@ header {
 
 .card {
     background-color: hsl(0, 0%, 100%);
-    border-radius: 5px;
+    border-radius: 2rem;
     border-width: 1px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
     color: hsl(206, 17%, 28%);
@@ -40,6 +40,8 @@ header {
     margin: 0 auto;
     max-width: 800px;
     padding: 30px 40px;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.3));
 }
 
 .card-header::after {
@@ -85,6 +87,16 @@ header {
     padding: 14px 34px;
     text-align: center;
     cursor: pointer;
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+    background-color: #bc3315;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
 }
 
 button[disabled] {

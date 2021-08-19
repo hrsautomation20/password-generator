@@ -94,24 +94,32 @@ function getPrompts() {
   choiceArray = [];
   characterLength = parseInt(
     prompt(
-      "How many characters do you want your password to be? (8-128 characters"
+      "How many characters would you like your password to contain? (8-128 characters)"
     )
   );
 
   if (isNaN(characterLength) || characterLength < 8 || characterLength > 128) {
-    alert("Character length has to be a number, between 8 -  128");
+    alert("Password length must be between 8 - 128 characters");
     return false;
   }
-  if (confirm("Would you like lowercase in your password?")) {
+  if (
+    confirm("Would you like lowercase in your password? Click OK to confirm")
+  ) {
     choiceArray = choiceArray.concat(lowerCase);
   }
-  if (confirm("Would you like upercase in your password?")) {
+  if (
+    confirm("Would you like uppercase in your password? Click OK to confirm")
+  ) {
     choiceArray = choiceArray.concat(upperCase);
   }
-  if (confirm("Would you like numer  in your password?")) {
+  if (confirm("Would you like number in your password? Click OK to confirm")) {
     choiceArray = choiceArray.concat(numberArray);
   }
-  if (confirm("Would you like spical in your password?")) {
+  if (
+    confirm(
+      "Would you like special characters in your password? Click OK to confirm"
+    )
+  ) {
     choiceArray = choiceArray.concat(symbolArray);
   }
   return true;

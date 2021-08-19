@@ -50,15 +50,15 @@ To Generate Password Successfully follow below steps:
 
 ### Possible criteria options to choose from
 
-# Enter the number of characters that you would like to be on the password
+##### Enter the number of characters that you would like to be on the password
 
-# Select OK to confirm if you would like lowercase in your password (OK = Yes; Cancel = No)
+##### Select OK to confirm if you would like lowercase in your password (OK = Yes; Cancel = No)
 
-# Select OK to confirm if you would like uppercase in your password (OK = Yes; Cancel = No)
+##### Select OK to confirm if you would like uppercase in your password (OK = Yes; Cancel = No)
 
-# Select OK to confirm if you would like numbers in your password (OK = Yes; Cancel = No)
+##### Select OK to confirm if you would like numbers in your password (OK = Yes; Cancel = No)
 
-# Select OK to confirm if you would like special characters in your password (OK = Yes; Cancel = No)
+##### Select OK to confirm if you would like special characters in your password (OK = Yes; Cancel = No)
 
 ![nav-menu](./assets/images/criteria.PNG "Navigational Menu")
 

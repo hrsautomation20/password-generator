@@ -46,7 +46,7 @@ To Generate Password Successfully follow below steps:
 
 ### Click Generate Password Button once the app is open
 
-![nav-menu](./assets/images/generatebutton.PNG "Navigational Menu")
+![nav-menu](./assets/images/generatebutton.png "Navigational Menu")
 
 ### Possible criteria options to choose from
 
